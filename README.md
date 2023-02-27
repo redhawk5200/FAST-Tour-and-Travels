@@ -1,6 +1,8 @@
 # FAST-Tour-and-Travels
 Assignment 1 for the course "Web Engineering SE-3003"
 
+https://redhawk5200.github.io/FAST-Tour-and-Travels/
+
 
 `home.html`:<br>
 
