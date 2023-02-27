@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Information</title>
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/876ddc5eb4.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- My fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    .container-fluid {
+      padding: 3% 20%;
+    }
+
+    .nav-link {
+      font-size: 1.2rem;
+      font-family: "Ubuntu", sans-serif;
+      font-weight: 700;
+    }
+
+    body {
+      background: #E5FDD1;
+    }
+
+    .btn-group {
+      margin-top: 10px;
+    }
+
+    .nav-item {
+      padding: 0 18px;
+    }
+
+    .hotel{
+        margin-top: 15%;
+        margin-left: 40%;
+    }
+
+    .plane{
+        margin-top: 15%;
+        margin-left: 75%;
+    }
+
+    .vl {
+      border-left: 6px solid rgb(62, 62, 62);
+      height: 500px;
+      margin-top: 13%;
+      position: absolute;
+      left: 48%;
+      margin-left: -3px;
+      top: 0;
+    }
+
+    .btn{
+        margin-left: 50%;
+    }
+
+  </style>
+  <body>
+    <section class="navbarrrr">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menudrop"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <img
+            src="pictures/fastlogo.png"
+            alt="fast logo"
+            height="100"
+            width="100"
+          />
+          <!-- <a href="" class="navbar-brand">FAST Tour and Travels</a> -->
+          <div class="collapse navbar-collapse" id="menudrop">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="home.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="packages.html" class="nav-link">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a href="rental.html" class="nav-link">Rentals</a>
+              </li>
+              <li class="nav-item">
+                <a href="info.html" class="nav-link">Information</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <section class="hotel&plane">
+      <div class="container mx-auto mt-4">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card hotel" style="width: 18rem">
+              <img src="pictures/hotel.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Hotels</h5>
+                <!-- <h6 class="card-subtitle mb-2 text-muted">$1200/night</h6>
+                <p class="card-text">
+                  <li>3-course meal at lebonjou</li>
+                  <li>3 day stay at Avari</li>
+                  <li>Access to swimming pool</li>
+                </p> -->
+                <a href="hotel.html" class="btn btn-info mr-2"
+                  ><i class="fa-sharp fa-solid fa-eye"></i> Take a look</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="vl"></div>
+          <div class="col-md-4">
+            <div class="card plane" style="width: 18rem">
+              <img src="pictures/airport.jpg" width="400" height="200" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Flights</h5>
+                <!-- <h6 class="card-subtitle mb-2 text-muted">$500</h6>
+                <p class="card-text">
+                  <li>2-course meal at Farhan Biryani</li>
+                  <li>2 day stay at Pearson</li>
+                  <li>Access to spa</li>
+                </p> -->
+                <a href="flights.html" class="btn  btn-info mr-2"
+                  ><i class="fa-sharp fa-solid fa-eye"></i> Take a look</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

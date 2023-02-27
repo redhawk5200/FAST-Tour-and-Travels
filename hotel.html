@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hotels</title>
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/876ddc5eb4.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- My fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    
+  </head>
+  <style>
+    /* :root {
+      --gradient: linear-gradient(
+        to left top,
+        #0099ff 10%,
+        #fdd36a 90%
+        
+      );
+    } */
+
+    .container-fluid{
+      padding: 3% 20%;
+    }
+
+    .nav-link {
+      font-size: 1.2rem;
+      font-family: "Ubuntu", sans-serif;
+      font-weight: 700;
+    }
+
+    .navbar{
+      /* padding: 0 0 9.5rem; */
+    }
+
+    body {
+      background: #FFB84C;
+    }
+
+    /* .btn {
+      border: 5px solid;
+      border-image-slice: 1;
+      background: var(--gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      border-image-source: var(--gradient);
+      text-decoration: none;
+      transition: all 0.4s ease;
+    }
+
+    .btn:hover,
+    .btn:focus {
+      background: var(--gradient);
+      -webkit-background-clip: none;
+      -webkit-text-fill-color: #fff;
+      border: 5px solid #fff;
+      box-shadow: #222 1px 0 10px;
+      text-decoration: underline;
+    } */
+
+    .container{
+        /* padding-bottom: 200px; */
+    }
+
+    .nav-item{
+      padding: 0 18px;
+    }
+
+    .row {
+      margin-top: 5%;
+      padding-left: 6%;
+    }
+
+    .cardss{
+        padding-bottom: 200px;
+    }
+
+    .card{
+        margin-top: 40px;
+    }
+
+    .btn-group{
+        margin-top: 10px;
+    }
+
+    .date{
+        /* padding: 0 0 0 0; */
+        padding-right: 20px;
+        padding-left: 0;
+        margin-top: 5px;
+    }
+
+    .sdate{
+        /* padding: 0 0 0 0; */
+        padding-right: 10px;
+        padding-left: 0;
+        margin-top: 5px;
+    }
+
+  </style>
+  <!-- <link rel="icon" href="fa-solid fa-hands-holding-diamond"> -->
+  <body>
+    <section class="navbarrrr">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#menudrop"
+              aria-controls="navbarTogglerDemo01"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <img src="pictures/fastlogo.png" alt="fast logo" height="100" width="100" />
+            <!-- <a href="" class="navbar-brand">FAST Tour and Travels</a> -->
+            <div class="collapse navbar-collapse" id="menudrop">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="home.html" class="nav-link">Home</a>
+                  </li>
+                <li class="nav-item">
+                  <a href="packages.html" class="nav-link">Packages</a>
+                </li>
+                <li class="nav-item">
+                  <a href="rental.html" class="nav-link">Rentals</a>
+                </li>
+                <li class="nav-item">
+                  <a href="info.html" class="nav-link">Information</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+      </div>
+    </section>
+    <section class="cardss">
+      <div class="container mx-auto mt-4">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+              <img src="pictures/h1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Meadows Hotel</h5><br>
+                <h6 class="card-subtitle mb-2 text-muted">$200-$800</h6>
+                <p class="card-text">
+                    <li>Doctor on call</li>
+                    <li>Dry cleaning</li>
+                    <li>Excursions and guided tours</li>
+                    <li>Flower arrangement</li>
+                      
+                </p>
+                <a href="booking.html" class="btn btn-dark mr-2"
+                  ><i class="fa-sharp fa-solid fa-circle-check"></i> Rent</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+              <img src="pictures/h2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Shahrah Hotel</h5>
+                <h6 class="card-subtitle mb-2 text-muted">$800-$1600</h6>
+                <p class="card-text">
+                    <li>Doctor on call</li>
+                    <li>Dry cleaning</li>
+                    <li>Excursions and guided tours</li>
+                    <li>Flower arrangement</li>
+                    <li>Ironing service</li>
+                    <li>Laundry and valet service</li>
+                    <li>Mail services</li>
+                    <li>Room service (24-hour)</li>
+                    <li>Shoeshine service</li>
+                    <li>Ticket service</li>
+                    <li>limousine services</li>   
+                </p>
+                <a href="booking.html" class="btn btn-dark mr-2"
+                  ><i class="fa-sharp fa-solid fa-circle-check"></i> Rent</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+              <img src="pictures/h3.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Avari</h5>
+                <h6 class="card-subtitle mb-2 text-muted">$1600-$2000</h6>
+                <p class="card-text">
+                    <li>Doctor on call</li>
+                    <li>Dry cleaning</li>
+                    <li>Excursions and guided tours</li>
+                    <li>Flower arrangement</li>
+                    <li>Ironing service</li>
+                    <li>Laundry and valet service</li>
+                    <li>Mail services</li>
+                    <li>Room service (24-hour)</li>
+                    <li>Shoeshine service</li>
+                    <li>Ticket service</li>
+                    <li>limousine services</li>
+                    <li>Turndown service</li>
+                    <li>Valet parking</li>
+                      
+                </p>
+                <a href="booking.html" class="btn btn-dark mr-2"
+                  ><i class="fa-sharp fa-solid fa-circle-check"></i> Rent</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

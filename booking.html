@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Packages</title>
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/876ddc5eb4.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- My fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <style>
+
+    .container-fluid{
+      padding: 3% 20%;
+    }
+
+    .navbar{
+      /* padding: 0 0 9.5rem; */
+    }
+
+    body {
+      background: #fdd36a;
+    }
+
+    .nav-link {
+      font-size: 1.2rem;
+      font-family: "Ubuntu", sans-serif;
+      font-weight: 700;
+    }
+
+    .yellow {
+      border: 5px solid rgb(0, 0, 0);
+      border-image-slice: 1;
+      --gradient: linear-gradient(
+        to left top,
+        #000000 10%,
+        #fdd36a 90%
+        
+      );
+      text-decoration: none;
+      margin-right: 2%;
+    }
+
+    .yellow:hover,
+    .yellow:focus {
+      -webkit-background-clip: none;
+      -webkit-text-fill-color: #fdd36a;
+      border: 5px solid #fdd36a;
+      text-decoration: underline;
+    }
+
+    .red {
+      border: 5px solid black;
+      border-image-slice: 1;
+      --gradient: linear-gradient(
+        to left top,
+        #000000 10%,
+        #ff0000 90%
+        
+      );
+      text-decoration: none;
+      margin-right: 2%;
+    }
+
+    .red:hover,
+    .red:focus {
+      -webkit-background-clip: none;
+      -webkit-text-fill-color: #ff0400;
+      border: 5px solid #000000;
+      text-decoration: underline;
+    }
+
+    .container{
+        /* padding-bottom: 200px; */
+    }
+
+    .nav-item{
+      padding: 0 18px;
+    }
+
+    .row {
+
+    }
+
+    .cardss{
+        padding-bottom: 200px;
+    }
+  </style>
+  <body>
+    <section class="navbarrrr">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#menudrop"
+              aria-controls="navbarTogglerDemo01"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <img src="pictures/fastlogo.png" alt="fast logo" height="100" width="100" />
+            <!-- <a href="" class="navbar-brand">FAST Tour and Travels</a> -->
+            <div class="collapse navbar-collapse" id="menudrop">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="home.html" class="nav-link">Home</a>
+                  </li>
+                <li class="nav-item">
+                  <a href="packages.html" class="nav-link">Packages</a>
+                </li>
+                <li class="nav-item">
+                  <a href="rental.html" class="nav-link">Rentals</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">Information</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+      </div>
+    </section>
+    
+    <section class="bookingform">
+        <form class="container-fluid">
+            <!-- 2 column grid layout with text inputs for the first and last names -->
+            <div class="row mb-4">
+              <div class="col">
+                <div class="form-outline">
+                  <input type="text" id="form6Example1" class="form-control" />
+                  <label class="form-label" for="form6Example1">First name</label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-outline">
+                  <input type="text" id="form6Example2" class="form-control" />
+                  <label class="form-label" for="form6Example2">Last name</label>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Text input -->
+            <div class="form-outline mb-4">
+              <input type="text" id="form6Example3" class="form-control" />
+              <label class="form-label" for="form6Example3">Company name</label>
+            </div>
+          
+            <!-- Text input -->
+            <div class="form-outline mb-4">
+              <input type="text" id="form6Example4" class="form-control" />
+              <label class="form-label" for="form6Example4">Address</label>
+            </div>
+          
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form6Example5" class="form-control" />
+              <label class="form-label" for="form6Example5">Email</label>
+            </div>
+          
+            <!-- Number input -->
+            <div class="form-outline mb-4">
+              <input type="number" id="form6Example6" class="form-control" />
+              <label class="form-label" for="form6Example6">Phone</label>
+            </div>
+          
+            <!-- Message input -->
+            <div class="form-outline mb-4">
+              <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+              <label class="form-label" for="form6Example7">Additional information</label>
+            </div>
+          
+            <!-- Checkbox -->
+          
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-block mb-4 yellow">Confirm Booking</button>
+            <a type="submit" class="btn btn-danger btn-block mb-4 red" href="home.html">Cancel Booking</a>
+          </form>
+    </section>
+  </body>
+</html>
